@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-bg-dark);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.darkMode {
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter {
+  background-color: transparent;
+  color: var(--color-accent);
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}

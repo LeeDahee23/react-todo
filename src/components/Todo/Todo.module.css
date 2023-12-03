@@ -1,0 +1,29 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.checkbox {
+  width: 26px;
+  height: 26px;
+  margin-right: 0.5rem;
+}
+.checkbox.checked .text {
+  text-decoration: line-through;
+}
+.text {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 26px;
+  font-weight: bold;
+}
+.delete {
+  background-color: transparent;
+  color: var(--color-text);
+  transition: all 150ms ease-out;
+}
+.delete:hover {
+  color: var(--color-accent);
+  transform: scale(1.1);
+  transform: rotate(15deg);
+}
